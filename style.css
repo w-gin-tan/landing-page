@@ -1,0 +1,35 @@
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.header,
+.hero {
+  background-color: #1f2937;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+a,
+.sub-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
