@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf9;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.links p {
+  font-size: 18px;
+  color: #e5e7eb
+}
