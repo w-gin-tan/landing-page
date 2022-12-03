@@ -9,7 +9,8 @@ body {
 .header,
 .hero,
 .info_section,
-.quote_section
+.quote_section,
+.footer
 {
   padding: 1em 12.5%;
   display: flex;
@@ -97,6 +98,10 @@ img {
   padding: 3em;
 }
 
+.footer {
+  padding: 2em;
+}
+
 /* Element appearance */
 
 .header,
@@ -178,5 +183,13 @@ img {
 }
 
 #cta_desc {
+  color: #E5E7EB;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
+#footer_text {
   color: #E5E7EB;
 }
