@@ -56,7 +56,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em 0 6em 0;
+  margin: 1em 0 4em 0;
+  gap: 2em;
 }
 
 .card {
@@ -71,7 +72,6 @@ img {
 #square_2, 
 #square_3, 
 #square_4 {
-  border: 4px solid #3882F6;
   border-radius: 20px;
   width: 160px;
   height: 160px;
@@ -140,13 +140,40 @@ img {
   color: #1F2937;
 }
 
-#header_logo {
+#header_logo,
+#square_1,
+#square_2,
+#square_3,
+#square_4 {
+  background-size: 500% 500%;
+  color: transparent;
+  animation: rainbow 8s ease-in-out infinite;
+}
+
+#header_logo { /* sunday morning */
   font-size: 24px;
   background-image: repeating-linear-gradient(45deg, #AF9F8C, #7F867B, #C7C7BB, #D4C8BE, #E3E4E0);
   -webkit-background-clip: text;
-  background-size: 800% 800%;
-  color: transparent;
-  animation: rainbow 8s ease-in-out infinite;
+}
+
+#square_1 { /* storm creek */
+  background-image: repeating-linear-gradient(90deg, #293242, #9DA2AE, #A4A3A1, #916848, #B3A188);
+  -webkit-background-clip: border-box;
+}
+
+#square_2 { /* staple piece */
+  background-image: repeating-linear-gradient(90deg, #2D2D2B, #F0E4D8, #F6F5F0, #C39E9E, #F6F0F1);
+  -webkit-background-clip: border-box;
+}
+
+#square_3 { /* caramel coated */
+  background-image: repeating-linear-gradient(90deg, #2D2D2B, #B8926A, #D4C8BE, #B0B0B0, #EAE6DF);
+  -webkit-background-clip: border-box;
+}
+
+#square_4 { /* wheat grass */
+  background-image: repeating-linear-gradient(90deg, #B8926A, #D2BFA6, #A39886, #D7C0AE, #D0C0A6);
+  -webkit-background-clip: border-box;
 }
 
 @keyframes rainbow { 
