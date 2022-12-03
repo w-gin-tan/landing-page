@@ -9,7 +9,8 @@ body {
 .header,
 .hero,
 .info_section,
-.quote_section {
+.quote_section
+{
   padding: 1em 12.5%;
   display: flex;
   justify-content: center;
@@ -36,12 +37,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5em;
-}
-
-button {
-  font-size: 18px;
-  padding: 10px 2em;
-  border-radius: 6px;
 }
 
 .right {
@@ -87,6 +82,20 @@ img {
   margin-left: auto;
 }
 
+.cta_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 10em;
+}
+
+.cta_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 3em;
+}
 
 /* Element appearance */
 
@@ -107,13 +116,6 @@ img {
 
 .card p {
   font-size: 18px;
-}
-
-button {
-  border-color: #3882F6;
-  background-color: #3882F6;
-  color: #F9FAF8;
-  font-weight: 500;
 }
 
 .quote_section {
@@ -145,4 +147,36 @@ button {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+}
+
+#hero_button, #cta_button {
+  font-size: 18px;
+  padding: 10px 2em;
+  border-radius: 6px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 500;
+}
+
+#hero_button {
+  border: 2px solid #3882F6;
+}
+
+#cta_button {
+  border: 2px solid #F9FAF8;
+}
+
+.cta_container {
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+#cta_title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+#cta_desc {
+  color: #E5E7EB;
 }
