@@ -7,16 +7,13 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.info_section,
+.quote_section {
   padding: 1em 12.5%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header,
-.hero {
-  background-color: #1f2937;
 }
 
 #header_logo {
@@ -26,11 +23,6 @@ body {
 .header {
   justify-content: space-around;
   gap: 2em;
-}
-
-.link {
-  font-size: 18px;
-  color: #e5e7eb
 }
 
 .hero {
@@ -43,13 +35,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 0.5em;
 }
 
 button {
   font-size: 18px;
   padding: 10px 2em;
   border-radius: 6px;
-  font-weight: 500;
 }
 
 .right {
@@ -60,9 +52,87 @@ img {
   max-width: 100%;
 }
 
+.info_section {
+  flex-direction: column;
+}
+
+.info_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 6em 0;
+}
+
+.card {
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+.quote_section {
+  flex-direction: column;
+  padding: 8em 15%;
+}
+
+.quote_user {
+  margin-left: auto;
+}
+
+
+/* Element appearance */
+
+.header,
+.hero {
+  background-color: #1f2937;
+}
+
+.link, #hero_sub_text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.link {
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.card p {
+  font-size: 18px;
+}
+
+button {
+  border-color: #3882F6;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 500;
+}
+
+.quote_section {
+  background-color: #E5E7EB;
+}
+
+.quote_text {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quote_user {
+  font-weight: 800;
+  color: #1F2937;
+}
+
 #header_logo {
   font-size: 24px;
-  color: #f9faf9;
+  color: #f9faf8;
 }
 
 #hero_main_text {
@@ -71,3 +141,8 @@ img {
   color: #f9faf8;
 }
 
+#info_header_text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
